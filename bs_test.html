@@ -1,0 +1,25 @@
+<head>
+  <title>bs_test</title>
+</head>
+
+<body>
+  <div class="container">	
+  {{> home}}
+  </div>
+</body>
+
+<template name="home">
+  <ul class="nav nav-tabs">
+  	<li class="active"><a href="#collection">Collections Tab</a></li>
+  	<li><a href="#featured">Featured Tab</a></li>
+  </ul>
+  <div class="tab-content">
+  	<div class="tab-pane active" id="collection">
+  		<div class="well">Collections Content</div>
+  	</div>
+  	<div class="tab-pane" id="featured">
+  		<div class="well">Featured Content</div>
+  	</div>
+  	
+  </div>
+</template>
